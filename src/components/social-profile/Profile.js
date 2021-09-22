@@ -1,12 +1,6 @@
 import PropTypes from 'prop-types';
 
-export default function Profile({
-  name,
-  tag,
-  location = 'Planet Earth',
-  avatar,
-  stats,
-}) {
+export default function Profile({ name, tag, location, avatar, stats }) {
   return (
     <div class="profile">
       <div class="description">
